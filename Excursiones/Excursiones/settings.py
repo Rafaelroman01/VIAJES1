@@ -54,7 +54,7 @@ ROOT_URLCONF = 'Excursiones.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [r"\Users\Familia\Desktop\Carpeta VSC\Viajes1\Excursiones\Excursiones\templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
