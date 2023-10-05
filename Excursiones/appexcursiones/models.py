@@ -7,7 +7,7 @@ class Viajes(models.Model):
     destino = models.CharField(max_length=50)
     grupo = models.IntegerField()
     email= models.EmailField(max_length=80)
-    pass 
+    
 
 class Recreadores(models.Model):
    nombre = models.CharField(max_length=50)

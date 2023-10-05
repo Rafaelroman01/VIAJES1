@@ -20,12 +20,12 @@
         <!-- Navigation-->
         <nav class="navbar navbar-light bg-light static-top">
             <div class="container">
-                <a class="navbar-brand" href="">Inicio</a>
-                <a class="navbar-brand" href="#signup">Viajes</a>
-                <a class="navbar-brand" href="#signup">Recreadores</a>
-                <a class="navbar-brand" href="#signup">Clientes</a>
-                <a class="navbar-brand" href="#signup">Proveedores</a>
-                <a class="navbar-brand" href="#signup">Documentacion</a>
+                <a class="navbar-brand" href="{% url 'proyecto-inicio' %}">Inicio</a>
+                <a class="navbar-brand" href="{% url 'proyecto-viajes' %}">Viajes</a>
+                <a class="navbar-brand" href="{% url 'proyecto-recreadores' %}">Recreadores</a>
+                <a class="navbar-brand" href="{% url 'proyecto-clientes' %}">Clientes</a>
+                <a class="navbar-brand" href="{% url 'proyecto-proveedores' %}">Proveedores</a>
+                <a class="navbar-brand" href="{% url 'proyecto-documentacion' %}">Documentacion</a>
             </div>
         </nav>
         <!-- Masthead-->
@@ -42,6 +42,9 @@
                 </div>
             </div>
         </header>
+        {% block  contenido%}
+
+        {% endblock  %}
         <!-- Icons Grid-->
         </section>
         <!-- Image Showcases-->
