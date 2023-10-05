@@ -26,6 +26,14 @@ def creacion_viajes(request):
     contexto = {"formulario": formulario} 
     return render(request, "Appnuevo/viajes_formularios.html", contexto)
 
+def buscar_viajes(request):
+    return render(request, "Appnuevo/busqueda_viajes.html")
+
+def resultados_buscar_viajes(request):
+    nombre_viaje= request.GET["nombre_viaje"]
+    viajes = Viajes.objects.filter(nombre__icontains=nombre_viaje)
+    return render(request, "Appnuevo/resultados_busquedas_viajes.html", {"viajes":viajes})
+
 def recreadores(request):
     return render(request, "Appnuevo/recreadores.html")
 
