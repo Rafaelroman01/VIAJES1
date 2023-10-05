@@ -1,0 +1,23 @@
+Este proyecto lo hice con el fin de aprobar la tercera entrega del curso de Python en Coderhouse y a la vez para ofrecer una alternativa de viajes y excursiones a los diferentes usuarios.
+Brindar diferentes oportunidades de conocer nuevos lugares, la historia y y costumbres tradicionales, sorprendiendo a nuestros clientes con una extensa lista de opciones.
+La misma contara solo con excursiones terrestres, por ahora no contempla vuelos, ni eventos.
+Este Trabajo cuenta con el proyecto inicial llamado: Excursiones y una app llamada: "appexcursiones".
+Los pasos para realizarla fueron:
+-Creacion de un nuevo repositorio.
+-Creacion del proyecto "Excursiones".
+-Creacion de la base de datos.
+-Hacer las migraciones correspondientes.
+-Creacion de template.
+-Creacion de aplicacion "appexcursiones".
+-Crear los diferentes modelos.
+-Crear el archivo .gitignore.
+-Creacion de vistas avanzadas.
+-Descarga de la plantilla desde start Bootstarp.
+-Herencia de Templates.
+-Navegar entre nuestros Templates.
+-Creacion de superusuario en panel de administracion, agregar usuarios.
+-Creacion de Formularios con la API, por cada modelo hice 1 formulario.
+-Busqueda con Form, el formulario que use para las busquedas es: proyecto-viajes-buscar
+, alli realice la busqueda del nombre de un viaje.
+Por ahora esto seria lo realizado en la asignacion para la tercera entrega.
+
