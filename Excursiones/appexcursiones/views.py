@@ -17,9 +17,9 @@ def creacion_viajes(request):
         if formulario.is_valid():
             #Recuperamos los datos del atributo cleaned_data
             data = formulario.cleaned_data
-            
+            #
             viajes = Viajes(nombre=data["nombre"], destino=data["destino"], grupo=data["grupo"], email=data["email"])
-            
+            # Guardamos el formulario
             viajes.save()
     
     formulario = ViajeFormulario()
